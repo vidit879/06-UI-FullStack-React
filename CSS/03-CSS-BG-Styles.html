@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BG Styles</title>
+    <style>
+        #bg-image{
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background-image: url("images/burger4.jpg");
+            color: white;
+            padding: 10px;
+        }
+        #bg-attach{
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            background-image: url("images/burger4.jpg");
+            background-attachment: fixed;
+        }
+        #bg-position{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background: white url("images/small.png") no-repeat scroll top left;
+        }
+        #bg-size{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background: white url("images/image_2.jpg") no-repeat scroll center;
+            background-size: cover;
+        }
+        #bg-mix{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(90deg,black,white,black);
+        }
+        #bg-radial{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background: radial-gradient(yellow,orangered,red);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="bg-image">
+        <h2>Bg Image</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequatur cumque dolore eligendi eum iure, libero maiores modi molestiae odio porro, possimus quae quasi quo similique totam ullam veniam voluptate.</p>
+    </div>
+
+    <h2>BG Attach</h2>
+    <div id="bg-attach"></div>
+
+    <h2>BG Position</h2>
+    <div id="bg-position"></div>
+
+    <h2>BG Size</h2>
+    <div id="bg-size"></div>
+
+    <h2>BG Mix</h2>
+    <div id="bg-mix"></div>
+
+    <h2>BG Radial</h2>
+    <div id="bg-radial"></div>
+
+<div style="margin-bottom: 1000px"></div>
+</body>
+</html>
