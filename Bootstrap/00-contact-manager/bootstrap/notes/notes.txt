@@ -1,0 +1,149 @@
+Bootstrap -> Mark Otto -> Twitter
+---------
+-> css library
+-> website -> navbar, sidebar, cards, alerts, modals, forms,...
+
+-> bootstrap.css
+-> bootstrap.bundle.js
+
+-> Steps to installl bootstrap
+------------------------------
+-> https://getbootstrap.com/ -> click on download link -> Compiled CSS and JS -> click on download button
+-> extract the downloaded zip file -> copy the "css" , "js" folders and paste in your workspace.
+-> <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+-> <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+-> Steps to installl bootstrap Icons
+------------------------------
+-> https://getbootstrap.com/ -> click on icons -> click install link -> click on download latest zip -> click on sourceCode.zip -> extract it -> copy the "font" folder and paste it in workspace
+-> connect to bootstrap icons
+   -> <link rel="stylesheet" href="bootstrap/icons/font/bootstrap-icons.css">
+   
+   
+->  Button -> .btn -> apply styles  
+
+-> Button -> use the class name 
+
+Color Names of bootstrap 
+-------------------------
+primary -> blue 
+secondary -> grey
+info -> light blue 
+success -> green
+warning -> orange 
+danger -> red 
+dark -> dark grey / black
+light -> light grey 
+white -> white 
+
+text colors
+--------------
+text-primary -> blue 
+text-secondary -> grey
+text-info -> light blue 
+text-success -> green
+text-warning -> orange 
+text-danger -> red 
+text-dark -> dark grey / black
+text-light -> light grey 
+text-white -> white 
+
+Background colors
+--------------
+bg-primary -> blue 
+bg-secondary -> grey
+bg-info -> light blue 
+bg-success -> green
+bg-warning -> orange 
+bg-danger -> red 
+bg-dark -> dark grey / black
+bg-light -> light grey 
+bg-white -> white 
+
+button colors
+--------------
+btn 
+
+btn-primary -> blue 
+btn-secondary -> grey
+btn-info -> light blue 
+btn-success -> green
+btn-warning -> orange 
+btn-danger -> red 
+btn-dark -> dark grey / black
+btn-light -> light grey 
+btn-white -> white 
+
+alert colors
+--------------
+alert 
+alert-primary -> blue 
+alert-secondary -> grey
+alert-info -> light blue 
+alert-success -> green
+alert-warning -> orange 
+alert-danger -> red 
+alert-dark -> dark grey / black
+alert-light -> light grey 
+alert-white -> white 
+
+Margins & Paddings 
+------------------
+0 1 2 3 4 5 auto
+
+m = mx + my
+mx = ms + me 
+my = mt + mb
+
+p = px + py
+px = ps + pe 
+py = pt + pb
+
+Grid System 
+------------
+.container	
+	.row	
+	  .col  -> 12 cols per row 
+  .col-6 -> non-responsive class 
+
+-> .col-<screen>-<number> -> sm , md , lg , xl , xxl 
+
+-> small -> 2 cols -> 6*6 -> col-sm-6
+-> medium -> 3 cols -> 4*4*4 -> col-md-4
+-> lg     -> 4 cols -> 3*3*3*3 -> col-lg-3
+-> xl     -> 6 cols -> 2 * 2 * 2 * 2* 2 * 2 -> col-xl-2
+
+list-groups 
+----------
+list-group 
+list-group-item 
+list-group-item-action 
+ 
+Listgroup colors
+--------------
+list-group-item-primary -> blue 
+list-group-item-secondary -> grey
+list-group-item-info -> light blue 
+list-group-item-success -> green
+list-group-item-warning -> orange 
+list-group-item-danger -> red 
+list-group-item-dark -> dark grey / black
+list-group-item-light -> light grey 
+list-group-item-white -> white 
+
+cards 
+-----
+.card 
+.card-header
+.card-body
+.card-footer
+.card-title
+.card-subtitle
+.card-text
+.card-img
+
+forms 
+-----
+form-control -> text , password , email , textarea , select 
+form-check-input -> radio , checkbox 
+form-check-label
