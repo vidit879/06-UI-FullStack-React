@@ -1,0 +1,16 @@
+/*
+    CSS Styles
+ */
+body{
+    margin: 0;
+    font-family: Calibri,sans-serif;
+}
+.main-nav{
+    background-color: seagreen;
+    padding: 10px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
